@@ -1,0 +1,50 @@
+body{
+    font-family: fantasy;
+}
+.mainCalc{
+    border: 3px black inset;
+    width: 300px;
+    border-radius: 28px;
+    background-color: rgb(226, 219, 219);
+    background-image: linear-gradient(60deg,rgb(6, 26, 59),rgb(82, 191, 224));
+    border: 4px teal groove;
+}
+#result{
+    height: 15vh;
+    width: 95%;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(60deg,rgb(113, 159, 231),rgb(0, 98, 128));
+    border-radius: 27px;
+    outline: none;
+    color: white;
+    /* margin: auto;
+    display: block; */
+    margin: 3px 3px 0px 2px;
+    box-shadow: -1px -1px 1px rgba(195, 189, 189, 0.5), 1px 1px 1px #000;
+
+}
+button{
+    background-image: linear-gradient(60deg,rgb(6, 26, 59),rgb(82, 191, 224));
+    color: black;
+    width:83%;
+    height: 83%;
+    border-radius: 30px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    box-shadow: -1px -1px 1px rgba(195, 189, 189, 0.5), 1px 1px 1px #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.brownScreen{
+    background-color: brown;
+}
+button:active{
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    background-image: linear-gradient(60deg,rgb(82, 191, 224),rgb(6, 26, 59));
+}
